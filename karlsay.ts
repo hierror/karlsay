@@ -11,7 +11,6 @@ async function decodeText(filename: string) {
     const response = await fetch(filename);
     const text = await response.text();
 
-    console.log(text);
     return text;
 }
 
